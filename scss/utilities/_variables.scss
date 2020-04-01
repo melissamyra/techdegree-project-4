@@ -1,9 +1,16 @@
 // Colors ======================//
 
+//Main Colours
 $base-color: #777;
 $accent-color: #58e1c1;
 $accent2-color: #51ddfc;
 $white: #fff;
+
+//Button Colours
+$error: #e4757a;
+$info: #927bc1;
+$success: #63cc82;
+$warning: #fd7856;
 
 // Width ========================//
 
@@ -18,10 +25,10 @@ $break-m: 768px;
 //Buttons Background Colours
 $btn-bg: (
   'default': $accent2-color,
-    'error': #e4757a,
-     'info': #927bc1,
-  'success': #63cc82,
-  'warning': #fd7856,
+    'error':$error,
+     'info': $info,
+  'success': $success,
+  'warning': $warning,
 );
 
 //Grid Items Background Colours
