@@ -22,7 +22,7 @@
     justify-content: center;
     margin-top: 0;
     align-items: center;
-    & + [class^=col] {
+    & + & {
       margin-left: 10px;
     }
   }
@@ -44,7 +44,7 @@
 
   .btn {
     padding: 10px 30px;
-    & + .btn {
+    & + & {
       margin-left: 10px;
     }
 
